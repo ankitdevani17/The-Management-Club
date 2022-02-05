@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=PT+Serif&display=swap');
+img{
+    display: block;
+
+
+
+    object-fit:contain;
+
+    height:267px;
+    
+    
+    margin-left: auto;
+    
+    
+    margin-right: auto;
+}
+.card-text{
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size :large;
+    color:#4C0504;
+}
+.card{
+    margin-bottom: 20px;
+    height:314px;
+    border-color:#4C0504;
+    border-radius:20px;
+    border-width:2px;
+}

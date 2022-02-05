@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=PT+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+
+    
+    
+    
+    }
+    .col-md-6{
+      margin-top:80px
+    }
+    img{
+      margin-top:-25px
+    }
+    .home{
+      overflow-y:hidden;
+    }.i{
+        display : flex;
+        height : 100vh;
+    }
+    .i-left {
+        padding: 0px 50px;
+        flex: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border:#59b256;
+    
+      }
+      
+      .i-right {
+        flex: 50%;
+      }
+    .i-left-wrapper{
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    img{
+
+    margin-right: 10px;
+    margin-left:60px
+    }
+    
+#B{
+    width:50%;
+
+}
+    .intro{
+        font-size: 45px;
+        font-weight:300;
+        margin-left:10px;
+        color:#4C0504;
+        font-weight:bold;
+        font-family: 'EB Garamond', serif;
+        font-family: 'PT Serif', serif;
+        text-align: center;
+    
+    }
+    
+    .i-name{
+        font-size: 45px;
+        margin-left:10px;
+        margin-left:10px;
+        color:#4C0504;
+        font-weight:bold;
+        font-family: 'EB Garamond', serif;
+    
+    }
+    .tagline{
+ font-style: italic;
+        margin-left:10px;
+        margin-left:10px;
+        color:#4C0504;
+        font-size: 24px;
+        font-weight:bold;
+        font-family: 'EB Garamond', serif;
+        font-family: 'PT Serif', serif;
+        text-align: center;
+    }
+
+      .desc{
+       margin-top: 20px;
+       margin-left:10px;
+       color:#4C0504;
+       font-size: medium;
+       font-family: 'Quintessential', cursive;
+       overflow: hidden;
+       text-align: center;
+       font-size: 17px;
+ 
+      }
+      @keyframes move {
+    
+        50% {
+          transform: translateY(-50px);
+        }
+        100% {
+          transform: translateY(-100px);
+        }
+      }
+      .i-img{
+        object-fit: cover;
+        width:100%;
+        height:100%;
+
+    
+      }
+      @media (max-width: 1000px){
+     .i-title-wrapper{
+       z-index: -1;
+     }
+     .i-desc{
+      margin-top: 15px;
+      margin-left:10px;
+     }
+      }
+      @media screen and (max-width: 708px) {
+     
+    .i-img{
+          display:none;
+        }
+      }
