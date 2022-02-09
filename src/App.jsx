@@ -1,12 +1,10 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+
 import Home from './Home';
 import About from "./About";
 import Events from "./Events";
 import Contact from "./Contact";
-import Navbar from './Navbar';
+import Navb from './Navb';
 import {Route,Routes} from "react-router-dom";
 
 const App = () => {
